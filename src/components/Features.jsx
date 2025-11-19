@@ -38,17 +38,17 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white">A minimalist stack that scales</h2>
-          <p className="mt-3 text-white/70">Everything you need to capture field data, reason with AI and deliver results on WhatsApp.</p>
+          <p className="mt-3 text-white/80">Everything you need to capture field data, reason with AI and deliver results on WhatsApp.</p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {items.map((f) => (
-            <div key={f.title} className="rounded-2xl border border-white/10 bg-white/5 p-6 text-white/80 hover:bg-white/[0.07] transition">
-              <div className="h-10 w-10 rounded-lg bg-white/10 text-white flex items-center justify-center mb-4">
+            <div key={f.title} className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-6 text-white/80 hover:bg-emerald-500/10 transition">
+              <div className="h-10 w-10 rounded-lg bg-emerald-500/20 text-emerald-200 flex items-center justify-center mb-4">
                 {f.icon}
               </div>
               <h3 className="text-white font-medium">{f.title}</h3>
-              <p className="text-white/70 text-sm mt-1 leading-relaxed">{f.desc}</p>
+              <p className="text-white/80 text-sm mt-1 leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>

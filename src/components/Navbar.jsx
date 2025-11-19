@@ -6,10 +6,10 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <a href="#" className="flex items-center gap-2 text-white">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-tr from-emerald-400 via-sky-400 to-fuchsia-400 flex items-center justify-center">
-              <Sparkles className="h-5 w-5 text-white" />
+            <div className="h-8 w-8 rounded-lg bg-gradient-to-tr from-emerald-400 via-lime-400 to-green-600 flex items-center justify-center">
+              <Leaf className="h-5 w-5 text-white" />
             </div>
-            <span className="font-semibold tracking-tight">AgriMind</span>
+            <span className="font-semibold tracking-tight">Neural Harvest</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
